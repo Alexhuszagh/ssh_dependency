@@ -1,0 +1,8 @@
+[package]
+name = "ssh_dependency"
+version = "0.1.0"
+authors = ["Alex Huszagh <ahuszagh@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+private_lib = { git = "ssh://git@github.com/Alexhuszagh/private_lib.git" }
