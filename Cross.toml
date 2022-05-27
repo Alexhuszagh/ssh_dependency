@@ -1,0 +1,2 @@
+[build.env]
+ssh_agent_passthrough = true
